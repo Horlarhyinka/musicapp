@@ -1,0 +1,51 @@
+.side-bar{
+    /* display: inline-block; */
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    float: left;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: black;
+}
+
+.side-bar button{
+    margin-top: 35px;
+    width: 100%;
+    padding: 12px;
+    font-weight: 450;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.115);
+}
+
+.side-bar button:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 350ms, color 350ms;
+    border: none;
+}
+
+.side-bar .playlists{
+    margin-top: 10px;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+    height: 65vh;
+    padding-top: 5px;
+    border-radius: 2px;
+}
+
+.side-bar hr{
+    width: 90%;
+    height: 0px;
+    border: 0.1px solid rgba(255, 255, 255, 0.213);
+    margin-top: 45px;
+}
+
+.side-bar .playlists::-webkit-scrollbar {
+    display: none;
+}

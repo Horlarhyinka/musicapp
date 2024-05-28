@@ -1,0 +1,23 @@
+.profile-card{
+    border: 1px solid rgba(255, 255, 255, 0.119);
+    border-radius: 5px;
+    /* background-color: rgba(255, 255, 255, 0.034); */
+}
+
+.profile-card span{
+    width: 40px;
+    background-color: brown;
+    font-size: 16px;
+    font-weight: 650;
+    padding: 8px 12px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.profile-card h4{
+    display: inline-block;
+    width: calc(100% - 65px);
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 12px;
+}

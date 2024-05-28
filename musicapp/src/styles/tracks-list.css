@@ -1,0 +1,9 @@
+.tracks-list{
+    display: inline-block;
+    width: 98%;
+    padding: 2px;
+    background-color: black;
+    clear: both;
+    text-align: left;
+    margin-bottom: 65px;
+}

@@ -1,0 +1,55 @@
+.playlist-info{
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    width: calc(70% - 10px);
+    left: calc(30% + 5px);
+    background-color: black;
+    box-sizing: border-box;
+    padding: 16px;
+    text-align: left;
+    border-radius: 2px;
+    padding-bottom: 25px;
+    z-index: 1;
+}
+
+.playlist-info h1.name{
+    display: inline-block;
+    width: 100%;
+    font-size: 34px;
+    text-align: left;
+}
+
+.playlist-info div.wrap{
+    /* border: 1px solid grey; */
+    display: inline-block;
+}
+
+.playlist-info p, .playlist-info span{
+    display: inline-block;
+    margin: 0px;
+}
+
+.playlist-info .username{
+    margin: 0px 5px;
+    font-size: 16px;
+    font-weight: 480;
+}
+
+.playlist-info span{
+    font-size: 12px;
+    padding: 2px 8px;
+    border: 1px solid rgba(255, 255, 255, 0.504);
+    border-radius: 35px;
+    color: rgba(255, 255, 255, 0.526);
+    margin-left: 15px;
+}
+
+.playlist-info p.description{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.82);
+}
